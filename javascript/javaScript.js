@@ -5,7 +5,7 @@ function loginValidate() {
 	
 	form.classList.remove('is-invalid');
 	
-	//var inputEmail = document.forms["myForm"]["inputEmail"];
+
 
 	var inputEmail = document.getElementById('inputEmail');
 	
@@ -41,10 +41,9 @@ function loginValidate() {
 form.addEventListener('blur', (event) => {
 	console.log(event);
 	if(event.target.value!='') event.target.classList.remove('is-invalid');
-    //registerValidate();
+    
 }, true);
 
-// Con esto establecemos que el email sea de estructura normal (@gmail.com por ejemplo)
 
 function validar_email(email) {
 	var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;

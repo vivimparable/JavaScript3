@@ -5,7 +5,6 @@ function registerValidate() {
 	
 	form.classList.remove('is-invalid');
 	
-	//var inputEmail = document.forms["myForm"]["inputEmail"];
 
 
 	var inputBuscador = document.forms["myForm"]["inputBuscador"];
@@ -35,5 +34,4 @@ function registerValidate() {
 form.addEventListener('blur', (event) => {
 	console.log(event);
 	if(event.target.value!='') event.target.classList.remove('is-invalid');
-    //registerValidate();
 }, true);
