@@ -1,0 +1,162 @@
+/*HEADER:*/
+.nav-con ul li:hover{
+
+text-decoration: underline;
+
+}
+/*IDIOMA*/
+.form-select{
+    width: 10rem;
+    height: 2.3rem;
+}
+
+/*BUSCADOR*/
+
+
+/*BANNER1*/
+.jumbotron{
+    background-image: url(Recursos-definición.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 83vh;
+    position: relative;
+}
+.jumbotron::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+.jumbotron h1,
+.jumbotron p {
+	
+	color: #fff;
+	position: relative
+}
+.jumbotron hr{
+    color: white;
+}
+
+/*BANNER2*/
+h2{
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    line-height: 3.6rem;
+}
+/*CARDS*/
+
+.imagen-card1{
+
+    padding: 2rem;
+}
+
+.imagen-card2{
+    padding: 4rem;
+}
+
+.imagen-card3{
+    padding: 4rem;
+}
+
+
+/*DESPLIEGUE*/
+
+  .despliegue{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .despliegue select{
+      width: 10rem;
+  }
+
+ 
+
+/*FOOTER*/
+footer{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
+footer h5{
+   font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+/*media queries*/
+@media (max-width: 575.98px) { 
+    p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+}
+
+.form-select{
+    width: 6.1rem; 
+    margin-left: auto;
+    margin-top: 1rem;
+
+}
+
+
+.buscador{
+
+    width: 25rem;
+}
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .form-select{
+        
+        margin-left: auto;
+
+    }
+
+    .imagen-card1{
+
+        padding: 0rem;
+    }
+
+    .imagen-card2{
+        padding: 0.4rem;
+    }
+
+    .imagen-card3{
+        padding: 0.4rem;
+    }
+
+   
+    
+  }
+    
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .form-select{
+        
+        margin-left: auto;
+    }
+    
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+} 
+@media (min-width: 1200px) {
+    
+   .formulario{
+
+    width: 65%;
+    margin: auto;
+
+   }
+  }
